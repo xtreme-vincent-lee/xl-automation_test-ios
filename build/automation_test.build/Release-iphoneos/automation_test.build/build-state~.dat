@@ -1,0 +1,503 @@
+Tautomation_test
+v5
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Release-iphoneos/automation_test.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/Info.plist automation_test/automation_test-Info.plist
+cProcessPCH /var/folders/rl/l73cmjv539xgh1g7snmnxbl40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/automation_test-Prefix-dulcymulvuonvocykkqpqmvqdsiu/automation_test-Prefix.pch.pth automation_test/automation_test-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/rl/l73cmjv539xgh1g7snmnxbl40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/automation_test-Prefix-gbdmihapdzisktgegjlavvhzejmr/automation_test-Prefix.pch.pth automation_test/automation_test-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/main.o /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/AppDelegate.o /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/ViewController.o /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/main.o /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/AppDelegate.o /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/ViewController.o /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/automation_test normal armv7
+cLd /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/automation_test normal armv7s
+cCreateUniversalBinary /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/automation_test normal "armv7 armv7s"
+cGenerateDSYMFile /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app.dSYM /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/automation_test
+cCopyPNGFile /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/Default.png automation_test/Default.png
+cCopyStringsFile /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/en.lproj/InfoPlist.strings automation_test/en.lproj/InfoPlist.strings
+cCopyPNGFile /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/Default@2x.png automation_test/Default@2x.png
+cCopyPNGFile /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/Default-568h@2x.png automation_test/Default-568h@2x.png
+cCompileXIB /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/en.lproj/ViewController_iPhone.xib
+cCompileXIB /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/en.lproj/ViewController_iPad.xib
+cProcessProductPackaging "/Users/xtremelabs/Library/MobileDevice/Provisioning Profiles/CD44D0D5-F190-4AFB-B641-7496E70BAB2B.mobileprovision" /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/xtremelabs/Library/MobileDevice/Provisioning Profiles/CD44D0D5-F190-4AFB-B641-7496E70BAB2B.mobileprovision" /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/embedded.mobileprovision
+cTouch /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app
+cProcessProductPackaging /Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test.xcent
+cCodeSign /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app
+
+N/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
+c00000000503C83D40000000000000132
+t1346143188
+s306
+
+N/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+c0000000050A66DCE0000000000000094
+t1353084366
+s148
+
+N/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+c0000000050A66DCE0000000000000096
+t1353084366
+s150
+
+N/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000050A66DD00000000000322740
+t1353084368
+s3286848
+
+N/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000050A66DD10000000000629C80
+t1353084369
+s6462592
+
+N/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c0000000050A66DD000000000000015F7
+t1353084368
+s5623
+
+N/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c0000000050A66DD20000000000000E8D
+t1353084370
+s3725
+
+N/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000050A66DD400000000011BA850
+t1353084372
+s18589776
+
+N/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/Availability.h
+c0000000050A66DD70000000000001B54
+t1353084375
+s6996
+
+N/Users/xtremelabs/Library/MobileDevice/Provisioning Profiles/CD44D0D5-F190-4AFB-B641-7496E70BAB2B.mobileprovision
+c0000000050EB35A7000000000000305D
+t1357591975
+s12381
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/AppDelegate.m
+c00000000511E6BC400000000000009E6
+t1360948164
+s2534
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/Default-568h@2x.png
+c0000000050748B2300000000000048A2
+t1349815075
+s18594
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/Default.png
+c0000000050748B23000000000000198C
+t1349815075
+s6540
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/Default@2x.png
+c0000000050748B230000000000003EEB
+t1349815075
+s16107
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/ViewController.m
+c00000000511E6CC5000000000000024D
+t1360948421
+s589
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/automation_test-Prefix.pch
+c00000000511E6BC4000000000000014D
+t1360948164
+s333
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/en.lproj/InfoPlist.strings
+c00000000511E6BC4000000000000002D
+t1360948164
+s45
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/en.lproj/ViewController_iPad.xib
+c00000000511E6BC50000000000001489
+t1360948165
+s5257
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/en.lproj/ViewController_iPhone.xib
+c00000000511E6CC50000000000002F64
+t1360948421
+s12132
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/main.m
+c00000000511E6BC40000000000000159
+t1360948164
+s345
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app
+t2
+s0
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app.dSYM
+t2
+s0
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/Default.png
+t2
+s0
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/Default@2x.png
+t2
+s0
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/Info.plist
+t2
+s0
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/PkgInfo
+t2
+s0
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/ResourceRules.plist
+t2
+s0
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/automation_test
+t2
+s0
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/en.lproj/ViewController_iPad.nib
+t2
+s0
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/en.lproj/ViewController_iPhone.nib
+t2
+s0
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/AppDelegate.o
+t2
+s0
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/ViewController.o
+t2
+s0
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/automation_test
+t2
+s0
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/automation_test.LinkFileList
+c00000000511E6D1A00000000000001CA
+t1360948506
+s458
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/AppDelegate.o
+t2
+s0
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/ViewController.o
+t2
+s0
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/automation_test
+t2
+s0
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/automation_test.LinkFileList
+c00000000511E6D1A00000000000001CD
+t1360948506
+s461
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/main.o
+t2
+s0
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test.xcent
+t2
+s0
+
+N/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/var/folders/rl/l73cmjv539xgh1g7snmnxbl40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/automation_test-Prefix-dulcymulvuonvocykkqpqmvqdsiu/automation_test-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/rl/l73cmjv539xgh1g7snmnxbl40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/automation_test-Prefix-gbdmihapdzisktgegjlavvhzejmr/automation_test-Prefix.pch.pth
+t2
+s0
+
+Nautomation_test/automation_test-Info.plist
+c00000000511E6BC400000000000005AC
+t1360948164
+s1452
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies11fdd699a4ceb641^6a6c3b9aa4ceb641^---0#1#0#--18"Check dependencies36"2194937C-3843-4C4A-AAA8-8E385EF929C1-
+
+CCodeSign /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app
+s382641308.460010
+e382641308.621078
+r0
+xCodeSign
+x/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app
+o/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app: User interaction is not allowed.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"CodeSign build/Release-iphoneos/automation_test.appf1d6759ca4ceb641^ea059f9ca4ceb641^-178"/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app: User interaction is not allowed.Command /usr/bin/codesign failed with exit code 11(21%IDEActivityLogMessage2@49"Command /usr/bin/codesign failed with exit code 1-382641308#18446744073709551615#0#-2#--15"Code Sign Error--0#0#0#-19%DVTDocumentLocation3@111"file://localhost/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/0000000000000000^1125"CodeSign build/Release-iphoneos/automation_test.app    cd /Users/xtremelabs/jenkins/workspace/automation_test    setenv CODESIGN_ALLOCATE /Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode_4_5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/xtremelabs/android-sdk-mac_x86/tools/:/Users/xtremelabs/android-sdk-mac_x86/platform-tools/:/Users/xtremelabs/Documents/AdobeAIRSDK/bin:/Users/xtremelabs/.rvm/bin"    /usr/bin/codesign --force --sign 57497e3208844679a4471d99555ead42a9a01e21 --resource-rules=/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/ResourceRules.plist --entitlements /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test.xcent /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app36"67DC23CF-C60F-418E-8DD8-E05471C1E002-
+
+CCompileC build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/AppDelegate.o /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382641306.631938
+e382641306.811515
+r1
+xCompileC
+xbuild/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/AppDelegate.o
+x/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/AppDelegate.mbb09a29aa4ceb641^a0c0cf9aa4ceb641^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/AppDelegate.m0000000000000000^4044"CompileC build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/AppDelegate.o automation_test/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xtremelabs/jenkins/workspace/automation_test    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode_4_5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/xtremelabs/android-sdk-mac_x86/tools/:/Users/xtremelabs/android-sdk-mac_x86/platform-tools/:/Users/xtremelabs/Documents/AdobeAIRSDK/bin:/Users/xtremelabs/.rvm/bin"    /Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-generated-files.hmap -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-own-target-headers.hmap -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-all-target-headers.hmap -iquote /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-project-headers.hmap -I/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/include -I/Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/DerivedSources/armv7 -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/DerivedSources -F/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/rl/l73cmjv539xgh1g7snmnxbl40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/automation_test-Prefix-dulcymulvuonvocykkqpqmvqdsiu/automation_test-Prefix.pch -MMD -MT dependencies -MF /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/AppDelegate.dia -c /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/AppDelegate.m -o /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/AppDelegate.o36"A80CB806-478A-4A50-93C5-1CB1E9144EDA-
+
+CCompileC build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/ViewController.o /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382641306.631982
+e382641306.806700
+r1
+xCompileC
+xbuild/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/ViewController.o
+x/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/ViewController.ma113a29aa4ceb641^3ab2ce9aa4ceb641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/ViewController.m0000000000000000^4062"CompileC build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/ViewController.o automation_test/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xtremelabs/jenkins/workspace/automation_test    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode_4_5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/xtremelabs/android-sdk-mac_x86/tools/:/Users/xtremelabs/android-sdk-mac_x86/platform-tools/:/Users/xtremelabs/Documents/AdobeAIRSDK/bin:/Users/xtremelabs/.rvm/bin"    /Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-generated-files.hmap -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-own-target-headers.hmap -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-all-target-headers.hmap -iquote /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-project-headers.hmap -I/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/include -I/Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/DerivedSources/armv7 -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/DerivedSources -F/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/rl/l73cmjv539xgh1g7snmnxbl40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/automation_test-Prefix-dulcymulvuonvocykkqpqmvqdsiu/automation_test-Prefix.pch -MMD -MT dependencies -MF /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/ViewController.d --serialize-diagnostics /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/ViewController.dia -c /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/ViewController.m -o /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/ViewController.o36"70DB19E2-543A-4A1E-B31F-5E08E3000C22-
+
+CCompileC build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/main.o /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382641306.631737
+e382641306.784665
+r1
+xCompileC
+xbuild/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/main.o
+x/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/main.m2505a29aa4ceb641^e2e6c89aa4ceb641^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/main.m0000000000000000^4002"CompileC build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/main.o automation_test/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xtremelabs/jenkins/workspace/automation_test    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode_4_5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/xtremelabs/android-sdk-mac_x86/tools/:/Users/xtremelabs/android-sdk-mac_x86/platform-tools/:/Users/xtremelabs/Documents/AdobeAIRSDK/bin:/Users/xtremelabs/.rvm/bin"    /Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-generated-files.hmap -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-own-target-headers.hmap -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-all-target-headers.hmap -iquote /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-project-headers.hmap -I/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/include -I/Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/DerivedSources/armv7 -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/DerivedSources -F/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/rl/l73cmjv539xgh1g7snmnxbl40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/automation_test-Prefix-dulcymulvuonvocykkqpqmvqdsiu/automation_test-Prefix.pch -MMD -MT dependencies -MF /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/main.dia -c /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/main.m -o /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/main.o36"6FE42BF3-E9CE-4E7A-9037-170257576A11-
+
+CCompileC build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/AppDelegate.o /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382641306.785935
+e382641306.877932
+r1
+xCompileC
+xbuild/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/AppDelegate.o
+x/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/AppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/AppDelegate.m7d5ec99aa4ceb641^bec0e09aa4ceb641^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/AppDelegate.m0000000000000000^4051"CompileC build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/AppDelegate.o automation_test/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xtremelabs/jenkins/workspace/automation_test    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode_4_5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/xtremelabs/android-sdk-mac_x86/tools/:/Users/xtremelabs/android-sdk-mac_x86/platform-tools/:/Users/xtremelabs/Documents/AdobeAIRSDK/bin:/Users/xtremelabs/.rvm/bin"    /Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-generated-files.hmap -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-own-target-headers.hmap -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-all-target-headers.hmap -iquote /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-project-headers.hmap -I/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/include -I/Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/DerivedSources/armv7s -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/DerivedSources -F/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/rl/l73cmjv539xgh1g7snmnxbl40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/automation_test-Prefix-gbdmihapdzisktgegjlavvhzejmr/automation_test-Prefix.pch -MMD -MT dependencies -MF /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/AppDelegate.d --serialize-diagnostics /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/AppDelegate.dia -c /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/AppDelegate.m -o /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/AppDelegate.o36"5EE2958B-FAFC-49CE-9A5F-8C7255DE4825-
+
+CCompileC build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/ViewController.o /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382641306.786796
+e382641306.864849
+r1
+xCompileC
+xbuild/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/ViewController.o
+x/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/ViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/ViewController.m8a91c99aa4ceb641^ae66dd9aa4ceb641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/ViewController.m0000000000000000^4069"CompileC build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/ViewController.o automation_test/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xtremelabs/jenkins/workspace/automation_test    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode_4_5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/xtremelabs/android-sdk-mac_x86/tools/:/Users/xtremelabs/android-sdk-mac_x86/platform-tools/:/Users/xtremelabs/Documents/AdobeAIRSDK/bin:/Users/xtremelabs/.rvm/bin"    /Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-generated-files.hmap -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-own-target-headers.hmap -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-all-target-headers.hmap -iquote /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-project-headers.hmap -I/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/include -I/Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/DerivedSources/armv7s -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/DerivedSources -F/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/rl/l73cmjv539xgh1g7snmnxbl40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/automation_test-Prefix-gbdmihapdzisktgegjlavvhzejmr/automation_test-Prefix.pch -MMD -MT dependencies -MF /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/ViewController.d --serialize-diagnostics /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/ViewController.dia -c /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/ViewController.m -o /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/ViewController.o36"168FA45D-EAE9-4CAB-90B0-B2732BE10C9C-
+
+CCompileC build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/main.o /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382641306.631998
+e382641306.785077
+r1
+xCompileC
+xbuild/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/main.o
+x/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/main.m1f12a29aa4ceb641^6004c99aa4ceb641^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/main.m0000000000000000^4009"CompileC build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/main.o automation_test/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xtremelabs/jenkins/workspace/automation_test    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode_4_5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/xtremelabs/android-sdk-mac_x86/tools/:/Users/xtremelabs/android-sdk-mac_x86/platform-tools/:/Users/xtremelabs/Documents/AdobeAIRSDK/bin:/Users/xtremelabs/.rvm/bin"    /Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-generated-files.hmap -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-own-target-headers.hmap -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-all-target-headers.hmap -iquote /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-project-headers.hmap -I/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/include -I/Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/DerivedSources/armv7s -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/DerivedSources -F/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/rl/l73cmjv539xgh1g7snmnxbl40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/automation_test-Prefix-gbdmihapdzisktgegjlavvhzejmr/automation_test-Prefix.pch -MMD -MT dependencies -MF /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/main.dia -c /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/main.m -o /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/main.o36"E60CA438-45E0-49FE-9383-B4FC0AE35EEB-
+
+CCompileXIB /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/en.lproj/ViewController_iPad.xib
+s382641307.218907
+e382641308.373840
+r1
+xCompileXIB
+x/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/en.lproj/ViewController_iPad.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compiling /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/en.lproj/ViewController_iPad.xibe624389ba4ceb641^7cb55f9ca4ceb641^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/en.lproj/ViewController_iPad.xib0000000000000000^1158"CompileXIB automation_test/en.lproj/ViewController_iPad.xib    cd /Users/xtremelabs/jenkins/workspace/automation_test    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode_4_5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/xtremelabs/android-sdk-mac_x86/tools/:/Users/xtremelabs/android-sdk-mac_x86/platform-tools/:/Users/xtremelabs/Documents/AdobeAIRSDK/bin:/Users/xtremelabs/.rvm/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode_4_5.app/Contents/Developer/usr/bin/..    /Applications/Xcode_4_5.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/en.lproj/ViewController_iPad.nib /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/en.lproj/ViewController_iPad.xib --sdk /Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk36"C87D6C24-1E38-4DBF-8552-CC2AED86D8BA-
+
+CCompileXIB /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/en.lproj/ViewController_iPhone.xib
+s382641307.182802
+e382641308.329121
+r1
+xCompileXIB
+x/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/en.lproj/ViewController_iPhone.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compiling /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/en.lproj/ViewController_iPhone.xiba2eb2e9ba4ceb641^fa42549ca4ceb641^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/en.lproj/ViewController_iPhone.xib0000000000000000^1164"CompileXIB automation_test/en.lproj/ViewController_iPhone.xib    cd /Users/xtremelabs/jenkins/workspace/automation_test    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode_4_5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/xtremelabs/android-sdk-mac_x86/tools/:/Users/xtremelabs/android-sdk-mac_x86/platform-tools/:/Users/xtremelabs/Documents/AdobeAIRSDK/bin:/Users/xtremelabs/.rvm/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode_4_5.app/Contents/Developer/usr/bin/..    /Applications/Xcode_4_5.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/en.lproj/ViewController_iPhone.nib /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/en.lproj/ViewController_iPhone.xib --sdk /Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk36"5DB6628C-B756-4DB8-880C-60384BDE8ADA-
+
+CCopyPNGFile /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/Default-568h@2x.png automation_test/Default-568h@2x.png
+s382641307.174745
+e382641307.280104
+r1
+xCopyPNGFile
+x/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/Default-568h@2x.png
+xautomation_test/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"CopyPNGFile build/Release-iphoneos/automation_test.app/Default-568h@2x.png automation_test/Default-568h@2x.png84d52c9ba4ceb641^e2cc479ba4ceb641^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/Default-568h@2x.png0000000000000000^912"CopyPNGFile "build/Release-iphoneos/automation_test.app/Default-568h@2x.png" "automation_test/Default-568h@2x.png"    cd /Users/xtremelabs/jenkins/workspace/automation_test    setenv PATH "/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode_4_5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/xtremelabs/android-sdk-mac_x86/tools/:/Users/xtremelabs/android-sdk-mac_x86/platform-tools/:/Users/xtremelabs/Documents/AdobeAIRSDK/bin:/Users/xtremelabs/.rvm/bin"    /Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/Default-568h@2x.png" "/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/Default-568h@2x.png"36"C94CF240-E324-4BEF-9161-545654506076-
+
+CCopyPNGFile /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/Default.png automation_test/Default.png
+s382641307.174539
+e382641307.217711
+r1
+xCopyPNGFile
+x/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/Default.png
+xautomation_test/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile build/Release-iphoneos/automation_test.app/Default.png automation_test/Default.png52d52c9ba4ceb641^a6d2379ba4ceb641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/Default.png0000000000000000^872"CopyPNGFile build/Release-iphoneos/automation_test.app/Default.png automation_test/Default.png    cd /Users/xtremelabs/jenkins/workspace/automation_test    setenv PATH "/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode_4_5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/xtremelabs/android-sdk-mac_x86/tools/:/Users/xtremelabs/android-sdk-mac_x86/platform-tools/:/Users/xtremelabs/Documents/AdobeAIRSDK/bin:/Users/xtremelabs/.rvm/bin"    /Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/Default.png /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/Default.png36"D7BC7062-623D-4D05-8DB9-F8702815FFA0-
+
+CCopyPNGFile /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/Default@2x.png automation_test/Default@2x.png
+s382641307.174743
+e382641307.269739
+r1
+xCopyPNGFile
+x/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/Default@2x.png
+xautomation_test/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile build/Release-iphoneos/automation_test.app/Default@2x.png automation_test/Default@2x.pngc7d52c9ba4ceb641^bd19459ba4ceb641^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/Default@2x.png0000000000000000^892"CopyPNGFile "build/Release-iphoneos/automation_test.app/Default@2x.png" "automation_test/Default@2x.png"    cd /Users/xtremelabs/jenkins/workspace/automation_test    setenv PATH "/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode_4_5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/xtremelabs/android-sdk-mac_x86/tools/:/Users/xtremelabs/android-sdk-mac_x86/platform-tools/:/Users/xtremelabs/Documents/AdobeAIRSDK/bin:/Users/xtremelabs/.rvm/bin"    /Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/Default@2x.png" "/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/Default@2x.png"36"1DE273FB-3928-4162-AB59-266100303FCA-
+
+CCopyStringsFile /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/en.lproj/InfoPlist.strings automation_test/en.lproj/InfoPlist.strings
+s382641307.174546
+e382641307.181464
+r1
+xCopyStringsFile
+x/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/en.lproj/InfoPlist.strings
+xautomation_test/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy automation_test/en.lproj/InfoPlist.stringsa1d62c9ba4ceb641^14752e9ba4ceb641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/en.lproj/InfoPlist.strings0000000000000000^841"CopyStringsFile build/Release-iphoneos/automation_test.app/en.lproj/InfoPlist.strings automation_test/en.lproj/InfoPlist.strings    cd /Users/xtremelabs/jenkins/workspace/automation_test    setenv PATH "/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode_4_5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/xtremelabs/android-sdk-mac_x86/tools/:/Users/xtremelabs/android-sdk-mac_x86/platform-tools/:/Users/xtremelabs/Documents/AdobeAIRSDK/bin:/Users/xtremelabs/.rvm/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/en.lproj -- automation_test/en.lproj/InfoPlist.strings36"813AD37F-784F-4448-8838-1FE36AD04164-
+
+CCpResource /Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Release-iphoneos/automation_test.app/ResourceRules.plist
+s382641306.241077
+e382641306.243962
+r1
+xCpResource
+x/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+xbuild/Release-iphoneos/automation_test.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Release-iphoneos/automation_test.app/ResourceRules.plist9ed23d9aa4ceb641^65723e9aa4ceb641^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/ResourceRules.plist0000809d84041042^1135"CpResource /Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Release-iphoneos/automation_test.app/ResourceRules.plist    cd /Users/xtremelabs/jenkins/workspace/automation_test    setenv PATH "/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode_4_5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/xtremelabs/android-sdk-mac_x86/tools/:/Users/xtremelabs/android-sdk-mac_x86/platform-tools/:/Users/xtremelabs/Documents/AdobeAIRSDK/bin:/Users/xtremelabs/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app36"F68BB0C4-5E7E-45B0-9D1C-EC4DDD387D68-
+
+CCreateUniversalBinary /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/automation_test normal "armv7 armv7s"
+s382641307.106081
+e382641307.133130
+r1
+xCreateUniversalBinary
+x/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/automation_test
+xnormal
+xarmv7 armv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Create universal binary /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/automation_test09541b9ba4ceb641^7f17229ba4ceb641^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/automation_test000000000080d041^1024"CreateUniversalBinary build/Release-iphoneos/automation_test.app/automation_test normal "armv7 armv7s"    cd /Users/xtremelabs/jenkins/workspace/automation_test    setenv PATH "/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode_4_5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/xtremelabs/android-sdk-mac_x86/tools/:/Users/xtremelabs/android-sdk-mac_x86/platform-tools/:/Users/xtremelabs/Documents/AdobeAIRSDK/bin:/Users/xtremelabs/.rvm/bin"    lipo -create /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/automation_test /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/automation_test -output /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/automation_test36"125A1BE6-09FD-4A89-A2D7-533B4B017B71-
+
+CGenerateDSYMFile /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app.dSYM /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/automation_test
+s382641307.140994
+e382641307.165108
+r1
+xGenerateDSYMFile
+x/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app.dSYM
+x/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/automation_test
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Generating /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app.dSYMc93a249ba4ceb641^a6442a9ba4ceb641^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app.dSYM000000000080d041^914"GenerateDSYMFile build/Release-iphoneos/automation_test.app.dSYM build/Release-iphoneos/automation_test.app/automation_test    cd /Users/xtremelabs/jenkins/workspace/automation_test    setenv PATH "/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode_4_5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/xtremelabs/android-sdk-mac_x86/tools/:/Users/xtremelabs/android-sdk-mac_x86/platform-tools/:/Users/xtremelabs/Documents/AdobeAIRSDK/bin:/Users/xtremelabs/.rvm/bin"    /Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/automation_test -o /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app.dSYM36"7178B60B-F308-4D90-A780-9C689EF0BF03-
+
+CLd /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/automation_test normal armv7
+s382641306.819061
+e382641306.866470
+r1
+xLd
+x/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/automation_test
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection160"Link /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/automation_testcccfd19aa4ceb641^0bd1dd9aa4ceb641^---0#0#0#--1488"Ld build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/automation_test normal armv7    cd /Users/xtremelabs/jenkins/workspace/automation_test    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode_4_5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/xtremelabs/android-sdk-mac_x86/tools/:/Users/xtremelabs/android-sdk-mac_x86/platform-tools/:/Users/xtremelabs/Documents/AdobeAIRSDK/bin:/Users/xtremelabs/.rvm/bin"    /Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos -F/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos -filelist /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/automation_test.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.0 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7/automation_test36"8F848348-98E3-4F19-BA95-F935D8EC4451-
+
+CLd /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/automation_test normal armv7s
+s382641306.884888
+e382641307.098921
+r1
+xLd
+x/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/automation_test
+xnormal
+xarmv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection161"Link /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/automation_test73a1e29aa4ceb641^3b56199ba4ceb641^---0#0#0#--1493"Ld build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/automation_test normal armv7s    cd /Users/xtremelabs/jenkins/workspace/automation_test    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode_4_5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/xtremelabs/android-sdk-mac_x86/tools/:/Users/xtremelabs/android-sdk-mac_x86/platform-tools/:/Users/xtremelabs/Documents/AdobeAIRSDK/bin:/Users/xtremelabs/.rvm/bin"    /Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos -F/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos -filelist /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/automation_test.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.0 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/Objects-normal/armv7s/automation_test36"19034373-3DFE-4A78-AE9F-1EAFAE476B40-
+
+CProcessInfoPlistFile /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/Info.plist automation_test/automation_test-Info.plist
+s382641306.241695
+e382641306.248402
+r1
+xProcessInfoPlistFile
+x/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/Info.plist
+xautomation_test/automation_test-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Process automation_test/automation_test-Info.plist20ef3d9aa4ceb641^20983f9aa4ceb641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/automation_test-Info.plist0000000000000000^1075"ProcessInfoPlistFile build/Release-iphoneos/automation_test.app/Info.plist automation_test/automation_test-Info.plist    cd /Users/xtremelabs/jenkins/workspace/automation_test    setenv PATH "/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode_4_5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/xtremelabs/android-sdk-mac_x86/tools/:/Users/xtremelabs/android-sdk-mac_x86/platform-tools/:/Users/xtremelabs/Documents/AdobeAIRSDK/bin:/Users/xtremelabs/.rvm/bin"    builtin-infoPlistUtility automation_test/automation_test-Info.plist -genpkginfo /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/ResourceRules.plist -o /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/Info.plist36"81C36C04-09B6-40AD-9E56-4E3B0E4CA95C-
+
+CProcessPCH /var/folders/rl/l73cmjv539xgh1g7snmnxbl40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/automation_test-Prefix-dulcymulvuonvocykkqpqmvqdsiu/automation_test-Prefix.pch.pth automation_test/automation_test-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382641306.256699
+e382641306.623769
+r1
+xProcessPCH
+x/var/folders/rl/l73cmjv539xgh1g7snmnxbl40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/automation_test-Prefix-dulcymulvuonvocykkqpqmvqdsiu/automation_test-Prefix.pch.pth
+xautomation_test/automation_test-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Precompile automation_test/automation_test-Prefix.pch59de419aa4ceb641^39b59f9aa4ceb641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/automation_test-Prefix.pch0000000000000000^4037"ProcessPCH /var/folders/rl/l73cmjv539xgh1g7snmnxbl40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/automation_test-Prefix-dulcymulvuonvocykkqpqmvqdsiu/automation_test-Prefix.pch.pth automation_test/automation_test-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xtremelabs/jenkins/workspace/automation_test    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode_4_5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/xtremelabs/android-sdk-mac_x86/tools/:/Users/xtremelabs/android-sdk-mac_x86/platform-tools/:/Users/xtremelabs/Documents/AdobeAIRSDK/bin:/Users/xtremelabs/.rvm/bin"    /Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-generated-files.hmap -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-own-target-headers.hmap -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-all-target-headers.hmap -iquote /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-project-headers.hmap -I/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/include -I/Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/DerivedSources/armv7 -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/DerivedSources -F/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/rl/l73cmjv539xgh1g7snmnxbl40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/automation_test-Prefix-dulcymulvuonvocykkqpqmvqdsiu/automation_test-Prefix.pch.dia -c /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/automation_test-Prefix.pch -o /var/folders/rl/l73cmjv539xgh1g7snmnxbl40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/automation_test-Prefix-dulcymulvuonvocykkqpqmvqdsiu/automation_test-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/rl/l73cmjv539xgh1g7snmnxbl40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/automation_test-Prefix-dulcymulvuonvocykkqpqmvqdsiu/automation_test-Prefix.pch.d36"484B72D1-2D8D-4FE9-BC8F-DF92ECC691A0-
+
+CProcessPCH /var/folders/rl/l73cmjv539xgh1g7snmnxbl40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/automation_test-Prefix-gbdmihapdzisktgegjlavvhzejmr/automation_test-Prefix.pch.pth automation_test/automation_test-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382641306.256703
+e382641306.623755
+r1
+xProcessPCH
+x/var/folders/rl/l73cmjv539xgh1g7snmnxbl40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/automation_test-Prefix-gbdmihapdzisktgegjlavvhzejmr/automation_test-Prefix.pch.pth
+xautomation_test/automation_test-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Precompile automation_test/automation_test-Prefix.pchf9dc419aa4ceb641^04ae9f9aa4ceb641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/xtremelabs/jenkins/workspace/automation_test/automation_test/automation_test-Prefix.pch0000000000000000^4040"ProcessPCH /var/folders/rl/l73cmjv539xgh1g7snmnxbl40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/automation_test-Prefix-gbdmihapdzisktgegjlavvhzejmr/automation_test-Prefix.pch.pth automation_test/automation_test-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xtremelabs/jenkins/workspace/automation_test    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode_4_5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/xtremelabs/android-sdk-mac_x86/tools/:/Users/xtremelabs/android-sdk-mac_x86/platform-tools/:/Users/xtremelabs/Documents/AdobeAIRSDK/bin:/Users/xtremelabs/.rvm/bin"    /Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-generated-files.hmap -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-own-target-headers.hmap -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-all-target-headers.hmap -iquote /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test-project-headers.hmap -I/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/include -I/Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode_4_5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/DerivedSources/armv7s -I/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/DerivedSources -F/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/rl/l73cmjv539xgh1g7snmnxbl40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/automation_test-Prefix-gbdmihapdzisktgegjlavvhzejmr/automation_test-Prefix.pch.dia -c /Users/xtremelabs/jenkins/workspace/automation_test/automation_test/automation_test-Prefix.pch -o /var/folders/rl/l73cmjv539xgh1g7snmnxbl40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/automation_test-Prefix-gbdmihapdzisktgegjlavvhzejmr/automation_test-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/rl/l73cmjv539xgh1g7snmnxbl40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/automation_test-Prefix-gbdmihapdzisktgegjlavvhzejmr/automation_test-Prefix.pch.d36"41271193-6BC3-4019-8CAF-9B5C19BB9D94-
+
+CProcessProductPackaging "/Users/xtremelabs/Library/MobileDevice/Provisioning Profiles/CD44D0D5-F190-4AFB-B641-7496E70BAB2B.mobileprovision" /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/embedded.mobileprovision
+s382641308.425391
+e382641308.428508
+r1
+xProcessProductPackaging
+x/Users/xtremelabs/Library/MobileDevice/Provisioning Profiles/CD44D0D5-F190-4AFB-B641-7496E70BAB2B.mobileprovision
+x/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection207"ProcessProductPackaging "/Users/xtremelabs/Library/MobileDevice/Provisioning Profiles/CD44D0D5-F190-4AFB-B641-7496E70BAB2B.mobileprovision" build/Release-iphoneos/automation_test.app/embedded.mobileprovision6afa6c9ca4ceb641^81b26d9ca4ceb641^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/embedded.mobileprovision0000000000000000^955"ProcessProductPackaging "/Users/xtremelabs/Library/MobileDevice/Provisioning Profiles/CD44D0D5-F190-4AFB-B641-7496E70BAB2B.mobileprovision" build/Release-iphoneos/automation_test.app/embedded.mobileprovision    cd /Users/xtremelabs/jenkins/workspace/automation_test    setenv PATH "/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode_4_5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/xtremelabs/android-sdk-mac_x86/tools/:/Users/xtremelabs/android-sdk-mac_x86/platform-tools/:/Users/xtremelabs/Documents/AdobeAIRSDK/bin:/Users/xtremelabs/.rvm/bin"    builtin-productPackagingUtility "/Users/xtremelabs/Library/MobileDevice/Provisioning Profiles/CD44D0D5-F190-4AFB-B641-7496E70BAB2B.mobileprovision" -o /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app/embedded.mobileprovision36"DB88F1B5-A2D9-4068-9034-0F59DA810046-
+
+CProcessProductPackaging /Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test.xcent
+s382641308.448477
+e382641308.451640
+r1
+xProcessProductPackaging
+x/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+x/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection237"ProcessProductPackaging /Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/automation_test.build/Release-iphoneos/automation_test.build/automation_test.xcentb4e3729ca4ceb641^ae9e739ca4ceb641^---0#0#0#-19%DVTDocumentLocation2@156"file://localhost/Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test.xcent000000000080d041^1041"ProcessProductPackaging /Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/automation_test.build/Release-iphoneos/automation_test.build/automation_test.xcent    cd /Users/xtremelabs/jenkins/workspace/automation_test    setenv PATH "/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode_4_5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/xtremelabs/android-sdk-mac_x86/tools/:/Users/xtremelabs/android-sdk-mac_x86/platform-tools/:/Users/xtremelabs/Documents/AdobeAIRSDK/bin:/Users/xtremelabs/.rvm/bin"    builtin-productPackagingUtility /Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/xtremelabs/jenkins/workspace/automation_test/build/automation_test.build/Release-iphoneos/automation_test.build/automation_test.xcent36"345B21B4-B1D8-48C7-912A-B56CF4593492-
+
+CTouch /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app
+s382641308.436481
+e382641308.440478
+r1
+xTouch
+x/Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Touch /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app24d16f9ca4ceb641^7ec3709ca4ceb641^---0#0#0#--638"Touch build/Release-iphoneos/automation_test.app    cd /Users/xtremelabs/jenkins/workspace/automation_test    setenv PATH "/Applications/Xcode_4_5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode_4_5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/xtremelabs/android-sdk-mac_x86/tools/:/Users/xtremelabs/android-sdk-mac_x86/platform-tools/:/Users/xtremelabs/Documents/AdobeAIRSDK/bin:/Users/xtremelabs/.rvm/bin"    /usr/bin/touch -c /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app36"1A650427-81AD-42C3-A365-AD3434206093-
+
+CValidate /Users/xtremelabs/jenkins/workspace/automation_test/build/Release-iphoneos/automation_test.app
+r0
+
