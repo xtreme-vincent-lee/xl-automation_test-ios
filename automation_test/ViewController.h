@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-- (IBAction)crashButton:(id)sender;
+@interface ViewController : UIViewController <UITextFieldDelegate>
+@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *buttons;
+
+@property (strong, nonatomic) NSArray * colors;
+
+- (IBAction)buttonsAction:(id)sender;
 
 @end
